@@ -15,6 +15,7 @@
       <p class="lead">MyoFunction Junction is a tool that allows you to locate muscles of the human body
         by entering the action performed by the person.  Start by using the button below to select a body part.</p>
       <br>
+      <!-- carousel of images explaining site -->
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -62,7 +63,7 @@
     </div>
   <!-- button to list available body parts -->
   <div class="container-fluid">
-      <div class="col-sm-2 col-md-2" style="background-color:pink;">
+      <div class="col-sm-6 col-md-6" style="background-color:pink;">
         <div class="dropdown show">
         <button class="btn btn-primary btn-lg dropdown-toggle"
         type="button" id="dropdownMenu1"
@@ -85,60 +86,28 @@
         <li><a href="toes.html">Toes</a></li>
         <li><a href="wrist.html">Wrist</a></li>
       </div>
-      </div>
+    </div>
       <br>
+<!-- where I really want my photo grid to show up -->
 
-      <!-- image of body skeleton -->
-    <div class="col-sm-2 col-md-5" style="background-color:yellow;">
-        <img src="image/skeletonfront.jpg" alt="axial skeleton">
-    </div>
-    </div>
-
-            <!--  <ul class="list-group-ankle">
-                <li class="list-group-item list-group-item-info">Plantar Flexion</li>
-                <li class="list-group-item list-group-item-info">Dorsi Flexion</li>
-              </ul>
-
-            </div>
-          </div> -->
-
-    <!-- second button
-    <div class="dropdown show">
-    <button class="btn btn-primary btn-lg dropdown-toggle"
-    type="button" id="dropdownMenu2"
-    data-toggle="dropdown" aria-haspopup="true"
-    expanded="true">Select Action <span class="caret"</span>
-    </button>
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <li>Abduction</li>
-    <li>Adduction</li>
-    <li>Depression</li>
-    <li>Elevation</li>
-    <li>Eversion</li>
-    <li>Extension</li>
-    <li>Flexion</li>
-    <li>Hyperextention</li>
-    <li>Inferior Rotation</li>
-    <li>Inversion</li>
-    <li>Lateral Rotation</li>
-    <li>Medial Rotation</li>
-    <li>Opposition</li>
-    <li>Plantarflexion</li>
-    <li>Pronation</li>
-    <li>Rotate Downward</li>
-    <li>Rotate Upwards</li>
-    <li>Rotation</li>
-    <li>Superior Rotation</li>
-    <li>Supination</li>
-    <li>Transverse Abduction</li>
-    <li>Transverse Adduction</li>
-    <li>Transverse Extension</li>
-    <li>Transverse Flexion</li>
-    </ul>
-  </div>  -->
-
-
-
+          <div class="col-sm-6 col-md-6" style="background-color:yellow;">
+             <ul class="first">
+                <li>
+                    <img alt="ankle"  src="image/ankle.jpg">
+                    <p class="text"><a href="ankle.html">Ankle</a></p>
+                </li>
+                <li>
+                    <img alt="elbow" src="image/elbow.jpg">
+                    <p class="text"><a href="elbow.html">Elbow</a></p>
+                </li>
+                <li>
+                    <img "fingers"  src="image/fingers.jpg">
+                    <p class="text"><a href="fingers.html">Fingers</a></p>
+                </li>
+                ...
+            </ul>
+          </div>
+        </div>
 
 
 
@@ -155,4 +124,5 @@
     <script src="javascript/jquery-3.2.1.js"></script>
     <script src="javascript/bootstrap.js"></script>
     <script src="javascript/main.js"></script>
+    <script src="bootstrap-photo-gallery-master/jquery.bsPhotoGallery.js"></script>
   </body>
