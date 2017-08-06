@@ -85,3 +85,7 @@ a.bsp-controls:hover {
      width:100%;
    }
 }
+
+.first {
+  list-style: none;
+}
